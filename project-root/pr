@@ -1,0 +1,65 @@
+project-root/
+│
+├─ app/                # Laravel application logic
+│   ├─ Http/
+│   │   ├─ Controllers/
+│   │   │   ├─ Admin/       # Admin panel controllers
+│   │   │   │   ├─ DashboardController.php
+│   │   │   │   ├─ HeroSliderController.php
+│   │   │   │   ├─ PageController.php
+│   │   │   │   └─ ... 
+│   │   │   └─ Frontend/    # Frontend page controllers
+│   │   │       ├─ HomeController.php
+│   │   │       ├─ AboutController.php
+│   │   │       └─ ...
+│   │   └─ Middleware/
+│   │
+│   ├─ Models/
+│   │   ├─ User.php
+│   │   ├─ Service.php
+│   │   ├─ Product.php
+│   │   ├─ Blog.php
+│   │   ├─ Project.php
+│   │   └─ ... 
+│   └─ Policies/
+│
+├─ bootstrap/           # Laravel bootstrap files
+├─ config/              # Configuration files
+├─ database/
+│   ├─ migrations/      # Database migrations
+│   ├─ seeders/         # Database seeders
+│   └─ factories/       # Model factories
+├─ public/
+│   ├─ assets/
+│   │   ├─ css/         # style.css, admin.css, etc.
+│   │   ├─ js/          # Custom JS
+│   │   ├─ images/      # Website images
+│   │   │   ├─ hero-slider/
+│   │   │   ├─ gallery/
+│   │   │   ├─ clients/
+│   │   │   └─ projects/
+│   │   └─ uploads/     # Resume uploads, downloads, etc.
+│   └─ index.php
+├─ resources/
+│   ├─ views/
+│   │   ├─ frontend/    # Public pages
+│   │   │   ├─ home.blade.php
+│   │   │   ├─ about.blade.php
+│   │   │   ├─ services/
+│   │   │   ├─ products/
+│   │   │   └─ ... 
+│   │   └─ admin/       # Admin panel pages
+│   │       ├─ dashboard.blade.php
+│   │       ├─ hero-slider/
+│   │       ├─ pages/
+│   │       └─ ... 
+│   ├─ js/              # Blade-specific JS
+│   └─ css/             # Blade-specific CSS
+├─ routes/
+│   ├─ web.php          # Web routes
+│   └─ api.php          # API routes (optional)
+├─ storage/
+│   ├─ app/
+│   │   ├─ public/      # Uploaded files
+│   └─ logs/
+└─ tests/               # PHPUnit tests
