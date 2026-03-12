@@ -1,0 +1,28 @@
+infra-project/
+│
+├── index.php
+├── about.php
+├── services.php
+├── service-details.php
+├── products.php
+├── product-details.php
+├── career.php
+├── blog.php
+├── blog-details.php
+├── team.php
+├── clients.php
+├── projects.php
+├── contact.php
+├── download.php
+│
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   ├── db.php
+│
+├── assets/
+│   ├── css/style.css
+│   ├── js/main.js
+│   ├── images/
+│
+└── uploads/
